@@ -1,0 +1,23 @@
+{
+	"name": "hugosolar/wp-cli-get-media",
+	"type": "command",
+	"description": "Manage post thumbnail associations.",
+	"keywords": ["wp-cli","get-media"],
+	"homepage": "https://github.com/hugosolar/wp-cli-get-media",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Hugo Solar.",
+			"email": "soy@hugo.solar",
+			"homepage": "http://www.hugo.solar",
+			"role": "Developer"
+		}
+	],
+	"require": {
+        "php": ">=5.3.0",
+        "wp-cli/wp-cli": "dev-master"
+    },
+    "autoload": {
+    	"files": [ "get-media.php" ]
+    }
+}
